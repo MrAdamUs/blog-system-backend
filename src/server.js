@@ -79,5 +79,3 @@ app.post('/api/articles/:name/comments', (req, res) => {
 });
 
 app.listen(8000, () => console.log('Listening on port 8000'));
-//npm cache clean
-//npm config set registry http://registry.npmjs.org
